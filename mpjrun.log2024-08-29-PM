@@ -1,0 +1,2172 @@
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are greater than than machines 1
+ DEBUG runtime  - divisor 2
+ DEBUG runtime  - remainder 0
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=2}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;192.168.3.161@0@0@1@2
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=2}
+ INFO  runtime  - Machine Name: Hulio Starting Rank: 0 Process Count: 2
+ DEBUG runtime  - Sending to Socket[addr=Hulio/192.168.3.161,port=40055,localport=55446]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=2}
+ DEBUG runtime  - [MPJRun.java]:Creating server..
+ DEBUG runtime  - [MPJRun.java]:Waiting for <2> to connect
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@39676@39026@0@0;192.168.3.161@39477@30512@1@0
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@39676@39026@0@0;192.168.3.161@39477@30512@1@0
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  - Connecting to 127.0.0.1@40055
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: Hulio Starting Rank: 0 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=Hulio/192.168.3.161,port=40055,localport=55458]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: 127.0.0.1 Starting Rank: 1 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=127.0.0.1/127.0.0.1,port=40055,localport=55459]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - [MPJRun.java]:Creating server..
+ DEBUG runtime  - [MPJRun.java]:Waiting for <2> to connect
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Socket DESKTOP-5R0PGJ4 connected to share Rank and Ports
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@26013@36256@0@0;192.168.3.118@32567@35776@1@0
+ DEBUG runtime  - Sending info to Socket DESKTOP-5R0PGJ4
+Info: #Peer Information;192.168.3.161@26013@36256@0@0;192.168.3.118@32567@35776@1@0
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  - Connecting to 127.0.0.1@40055
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: Hulio Starting Rank: 0 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=Hulio/192.168.3.161,port=40055,localport=55467]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: 127.0.0.1 Starting Rank: 1 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=127.0.0.1/127.0.0.1,port=40055,localport=55468]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - [MPJRun.java]:Creating server..
+ DEBUG runtime  - [MPJRun.java]:Waiting for <2> to connect
+ DEBUG runtime  - Socket DESKTOP-5R0PGJ4 connected to share Rank and Ports
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Sending info to Socket DESKTOP-5R0PGJ4
+Info: #Peer Information;192.168.3.161@32904@37296@0@0;192.168.3.118@37040@27398@1@0
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@32904@37296@0@0;192.168.3.118@37040@27398@1@0
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  - Connecting to 127.0.0.1@40055
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: Hulio Starting Rank: 0 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=Hulio/192.168.3.161,port=40055,localport=55479]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: 127.0.0.1 Starting Rank: 1 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=127.0.0.1/127.0.0.1,port=40055,localport=55481]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - [MPJRun.java]:Creating server..
+ DEBUG runtime  - [MPJRun.java]:Waiting for <2> to connect
+ DEBUG runtime  - Socket DESKTOP-5R0PGJ4 connected to share Rank and Ports
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Sending info to Socket DESKTOP-5R0PGJ4
+Info: #Peer Information;192.168.3.161@27694@26281@0@0;192.168.3.118@26289@34858@1@0
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@27694@26281@0@0;192.168.3.118@26289@34858@1@0
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  - Connecting to 127.0.0.1@40055
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: Hulio Starting Rank: 0 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=Hulio/192.168.3.161,port=40055,localport=55491]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: 127.0.0.1 Starting Rank: 1 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=127.0.0.1/127.0.0.1,port=40055,localport=55492]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - [MPJRun.java]:Creating server..
+ DEBUG runtime  - [MPJRun.java]:Waiting for <2> to connect
+ DEBUG runtime  - Socket DESKTOP-5R0PGJ4 connected to share Rank and Ports
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Sending info to Socket DESKTOP-5R0PGJ4
+Info: #Peer Information;192.168.3.161@33160@35337@0@0;192.168.3.118@38675@29829@1@0
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@33160@35337@0@0;192.168.3.118@38675@29829@1@0
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  - Connecting to 127.0.0.1@40055
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: Hulio Starting Rank: 0 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=Hulio/192.168.3.161,port=40055,localport=55501]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: 127.0.0.1 Starting Rank: 1 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=127.0.0.1/127.0.0.1,port=40055,localport=55502]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - [MPJRun.java]:Creating server..
+ DEBUG runtime  - [MPJRun.java]:Waiting for <2> to connect
+ DEBUG runtime  - Socket DESKTOP-5R0PGJ4 connected to share Rank and Ports
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Sending info to Socket DESKTOP-5R0PGJ4
+Info: #Peer Information;192.168.3.161@29554@32823@0@0;192.168.3.118@39051@36745@1@0
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@29554@32823@0@0;192.168.3.118@39051@36745@1@0
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  - Connecting to 127.0.0.1@40055
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: Hulio Starting Rank: 0 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=Hulio/192.168.3.161,port=40055,localport=55512]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: 127.0.0.1 Starting Rank: 1 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=127.0.0.1/127.0.0.1,port=40055,localport=55513]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - [MPJRun.java]:Creating server..
+ DEBUG runtime  - [MPJRun.java]:Waiting for <2> to connect
+ DEBUG runtime  - Socket DESKTOP-5R0PGJ4 connected to share Rank and Ports
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Sending info to Socket DESKTOP-5R0PGJ4
+Info: #Peer Information;192.168.3.161@38080@37387@0@0;192.168.3.118@37726@39750@1@0
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@38080@37387@0@0;192.168.3.118@37726@39750@1@0
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  - Connecting to 127.0.0.1@40055
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: Hulio Starting Rank: 0 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=Hulio/192.168.3.161,port=40055,localport=55522]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: 127.0.0.1 Starting Rank: 1 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=127.0.0.1/127.0.0.1,port=40055,localport=55523]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - [MPJRun.java]:Creating server..
+ DEBUG runtime  - [MPJRun.java]:Waiting for <2> to connect
+ DEBUG runtime  - Socket DESKTOP-5R0PGJ4 connected to share Rank and Ports
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Sending info to Socket DESKTOP-5R0PGJ4
+Info: #Peer Information;192.168.3.161@34606@35570@0@0;192.168.3.118@34489@25168@1@0
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@34606@35570@0@0;192.168.3.118@34489@25168@1@0
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  - Connecting to 127.0.0.1@40055
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: Hulio Starting Rank: 0 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=Hulio/192.168.3.161,port=40055,localport=55535]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: 127.0.0.1 Starting Rank: 1 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=127.0.0.1/127.0.0.1,port=40055,localport=55536]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - [MPJRun.java]:Creating server..
+ DEBUG runtime  - [MPJRun.java]:Waiting for <2> to connect
+ DEBUG runtime  - Socket DESKTOP-5R0PGJ4 connected to share Rank and Ports
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Sending info to Socket DESKTOP-5R0PGJ4
+Info: #Peer Information;192.168.3.161@36171@34139@0@0;192.168.3.118@29231@38067@1@0
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@36171@34139@0@0;192.168.3.118@29231@38067@1@0
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  - Connecting to 127.0.0.1@40055
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: Hulio Starting Rank: 0 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=Hulio/192.168.3.161,port=40055,localport=55555]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: 127.0.0.1 Starting Rank: 1 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=127.0.0.1/127.0.0.1,port=40055,localport=55556]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - [MPJRun.java]:Creating server..
+ DEBUG runtime  - [MPJRun.java]:Waiting for <2> to connect
+ DEBUG runtime  - Socket DESKTOP-5R0PGJ4 connected to share Rank and Ports
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Sending info to Socket DESKTOP-5R0PGJ4
+Info: #Peer Information;192.168.3.161@30121@36404@0@0;192.168.3.118@29679@30362@1@0
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@30121@36404@0@0;192.168.3.118@29679@30362@1@0
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  - Connecting to 127.0.0.1@40055
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: Hulio Starting Rank: 0 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=Hulio/192.168.3.161,port=40055,localport=55573]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: 127.0.0.1 Starting Rank: 1 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=127.0.0.1/127.0.0.1,port=40055,localport=55574]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - [MPJRun.java]:Creating server..
+ DEBUG runtime  - [MPJRun.java]:Waiting for <2> to connect
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Socket DESKTOP-5R0PGJ4 connected to share Rank and Ports
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@35562@28613@0@0;192.168.3.118@39638@29352@1@0
+ DEBUG runtime  - Sending info to Socket DESKTOP-5R0PGJ4
+Info: #Peer Information;192.168.3.161@35562@28613@0@0;192.168.3.118@39638@29352@1@0
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  - Connecting to 127.0.0.1@40055
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: Hulio Starting Rank: 0 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=Hulio/192.168.3.161,port=40055,localport=55581]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: 127.0.0.1 Starting Rank: 1 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=127.0.0.1/127.0.0.1,port=40055,localport=55582]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - [MPJRun.java]:Creating server..
+ DEBUG runtime  - [MPJRun.java]:Waiting for <2> to connect
+ DEBUG runtime  - Socket DESKTOP-5R0PGJ4 connected to share Rank and Ports
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Sending info to Socket DESKTOP-5R0PGJ4
+Info: #Peer Information;192.168.3.161@32410@33563@0@0;192.168.3.118@32068@36699@1@0
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@32410@33563@0@0;192.168.3.118@32068@36699@1@0
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  - Connecting to 127.0.0.1@40055
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: Hulio Starting Rank: 0 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=Hulio/192.168.3.161,port=40055,localport=55592]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: 127.0.0.1 Starting Rank: 1 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=127.0.0.1/127.0.0.1,port=40055,localport=55593]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - [MPJRun.java]:Creating server..
+ DEBUG runtime  - [MPJRun.java]:Waiting for <2> to connect
+ DEBUG runtime  - Socket DESKTOP-5R0PGJ4 connected to share Rank and Ports
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Sending info to Socket DESKTOP-5R0PGJ4
+Info: #Peer Information;192.168.3.161@30067@33287@0@0;192.168.3.118@38025@35134@1@0
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@30067@33287@0@0;192.168.3.118@38025@35134@1@0
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  - Connecting to 127.0.0.1@40055
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: Hulio Starting Rank: 0 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=Hulio/192.168.3.161,port=40055,localport=55607]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: 127.0.0.1 Starting Rank: 1 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=127.0.0.1/127.0.0.1,port=40055,localport=55608]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - [MPJRun.java]:Creating server..
+ DEBUG runtime  - [MPJRun.java]:Waiting for <2> to connect
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Socket DESKTOP-5R0PGJ4 connected to share Rank and Ports
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@31127@35362@0@0;192.168.3.118@28991@31123@1@0
+ DEBUG runtime  - Sending info to Socket DESKTOP-5R0PGJ4
+Info: #Peer Information;192.168.3.161@31127@35362@0@0;192.168.3.118@28991@31123@1@0
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  - Connecting to 127.0.0.1@40055
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: Hulio Starting Rank: 0 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=Hulio/192.168.3.161,port=40055,localport=55617]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: 127.0.0.1 Starting Rank: 1 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=127.0.0.1/127.0.0.1,port=40055,localport=55618]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - [MPJRun.java]:Creating server..
+ DEBUG runtime  - [MPJRun.java]:Waiting for <2> to connect
+ DEBUG runtime  - Socket DESKTOP-5R0PGJ4 connected to share Rank and Ports
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Sending info to Socket DESKTOP-5R0PGJ4
+Info: #Peer Information;192.168.3.161@33628@38200@0@0;192.168.3.118@30555@32822@1@0
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@33628@38200@0@0;192.168.3.118@30555@32822@1@0
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  - Connecting to 127.0.0.1@40055
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: Hulio Starting Rank: 0 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=Hulio/192.168.3.161,port=40055,localport=55626]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: 127.0.0.1 Starting Rank: 1 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=127.0.0.1/127.0.0.1,port=40055,localport=55627]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - [MPJRun.java]:Creating server..
+ DEBUG runtime  - [MPJRun.java]:Waiting for <2> to connect
+ DEBUG runtime  - Socket DESKTOP-5R0PGJ4 connected to share Rank and Ports
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Sending info to Socket DESKTOP-5R0PGJ4
+Info: #Peer Information;192.168.3.161@37926@26561@0@0;192.168.3.118@26620@33606@1@0
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@37926@26561@0@0;192.168.3.118@26620@33606@1@0
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  - Connecting to 127.0.0.1@40055
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: Hulio Starting Rank: 0 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=Hulio/192.168.3.161,port=40055,localport=55643]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: 127.0.0.1 Starting Rank: 1 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=127.0.0.1/127.0.0.1,port=40055,localport=55644]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - [MPJRun.java]:Creating server..
+ DEBUG runtime  - [MPJRun.java]:Waiting for <2> to connect
+ DEBUG runtime  - Socket DESKTOP-5R0PGJ4 connected to share Rank and Ports
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Sending info to Socket DESKTOP-5R0PGJ4
+Info: #Peer Information;192.168.3.161@39918@25929@0@0;192.168.3.118@35343@34150@1@0
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@39918@25929@0@0;192.168.3.118@35343@34150@1@0
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  - Connecting to 127.0.0.1@40055
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: Hulio Starting Rank: 0 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=Hulio/192.168.3.161,port=40055,localport=55655]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: 127.0.0.1 Starting Rank: 1 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=127.0.0.1/127.0.0.1,port=40055,localport=55656]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - [MPJRun.java]:Creating server..
+ DEBUG runtime  - [MPJRun.java]:Waiting for <2> to connect
+ DEBUG runtime  - Socket DESKTOP-5R0PGJ4 connected to share Rank and Ports
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Sending info to Socket DESKTOP-5R0PGJ4
+Info: #Peer Information;192.168.3.161@25796@26703@0@0;192.168.3.118@33425@27816@1@0
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@25796@26703@0@0;192.168.3.118@33425@27816@1@0
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  - Connecting to 127.0.0.1@40055
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: Hulio Starting Rank: 0 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=Hulio/192.168.3.161,port=40055,localport=55668]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: 127.0.0.1 Starting Rank: 1 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=127.0.0.1/127.0.0.1,port=40055,localport=55669]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - [MPJRun.java]:Creating server..
+ DEBUG runtime  - [MPJRun.java]:Waiting for <2> to connect
+ DEBUG runtime  - Socket DESKTOP-5R0PGJ4 connected to share Rank and Ports
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Sending info to Socket DESKTOP-5R0PGJ4
+Info: #Peer Information;192.168.3.161@34157@34159@0@0;192.168.3.118@36542@39565@1@0
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@34157@34159@0@0;192.168.3.118@36542@39565@1@0
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  - Connecting to 127.0.0.1@40055
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: Hulio Starting Rank: 0 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=Hulio/192.168.3.161,port=40055,localport=55675]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: 127.0.0.1 Starting Rank: 1 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=127.0.0.1/127.0.0.1,port=40055,localport=55676]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - [MPJRun.java]:Creating server..
+ DEBUG runtime  - [MPJRun.java]:Waiting for <2> to connect
+ DEBUG runtime  - Socket DESKTOP-5R0PGJ4 connected to share Rank and Ports
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Sending info to Socket DESKTOP-5R0PGJ4
+Info: #Peer Information;192.168.3.161@37448@35473@0@0;192.168.3.118@26352@37827@1@0
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@37448@35473@0@0;192.168.3.118@26352@37827@1@0
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  - Connecting to 127.0.0.1@40055
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: Hulio Starting Rank: 0 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=Hulio/192.168.3.161,port=40055,localport=55685]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: 127.0.0.1 Starting Rank: 1 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=127.0.0.1/127.0.0.1,port=40055,localport=55686]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - [MPJRun.java]:Creating server..
+ DEBUG runtime  - [MPJRun.java]:Waiting for <2> to connect
+ DEBUG runtime  - Socket DESKTOP-5R0PGJ4 connected to share Rank and Ports
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Sending info to Socket DESKTOP-5R0PGJ4
+Info: #Peer Information;192.168.3.161@28349@36882@0@0;192.168.3.118@38506@27305@1@0
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@28349@36882@0@0;192.168.3.118@38506@27305@1@0
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  - Connecting to 127.0.0.1@40055
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: Hulio Starting Rank: 0 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=Hulio/192.168.3.161,port=40055,localport=55700]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: 127.0.0.1 Starting Rank: 1 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=127.0.0.1/127.0.0.1,port=40055,localport=55701]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - [MPJRun.java]:Creating server..
+ DEBUG runtime  - [MPJRun.java]:Waiting for <2> to connect
+ DEBUG runtime  - Socket DESKTOP-5R0PGJ4 connected to share Rank and Ports
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Sending info to Socket DESKTOP-5R0PGJ4
+Info: #Peer Information;192.168.3.161@39389@27677@0@0;192.168.3.118@28199@27672@1@0
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@39389@27677@0@0;192.168.3.118@28199@27672@1@0
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  - Connecting to 127.0.0.1@40055
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: Hulio Starting Rank: 0 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=Hulio/192.168.3.161,port=40055,localport=55732]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: 127.0.0.1 Starting Rank: 1 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=127.0.0.1/127.0.0.1,port=40055,localport=55733]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - [MPJRun.java]:Creating server..
+ DEBUG runtime  - [MPJRun.java]:Waiting for <2> to connect
+ DEBUG runtime  - Socket DESKTOP-5R0PGJ4 connected to share Rank and Ports
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Sending info to Socket DESKTOP-5R0PGJ4
+Info: #Peer Information;192.168.3.161@35634@38212@0@0;192.168.3.118@38543@27603@1@0
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@35634@38212@0@0;192.168.3.118@38543@27603@1@0
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  - Connecting to 127.0.0.1@40055
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: Hulio Starting Rank: 0 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=Hulio/192.168.3.161,port=40055,localport=55741]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: 127.0.0.1 Starting Rank: 1 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=127.0.0.1/127.0.0.1,port=40055,localport=55742]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - [MPJRun.java]:Creating server..
+ DEBUG runtime  - [MPJRun.java]:Waiting for <2> to connect
+ DEBUG runtime  - Socket DESKTOP-5R0PGJ4 connected to share Rank and Ports
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Sending info to Socket DESKTOP-5R0PGJ4
+Info: #Peer Information;192.168.3.161@33851@27557@0@0;192.168.3.118@30081@39335@1@0
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@33851@27557@0@0;192.168.3.118@30081@39335@1@0
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  - Connecting to 127.0.0.1@40055
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: Hulio Starting Rank: 0 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=Hulio/192.168.3.161,port=40055,localport=50323]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: 127.0.0.1 Starting Rank: 1 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=127.0.0.1/127.0.0.1,port=40055,localport=50324]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - [MPJRun.java]:Creating server..
+ DEBUG runtime  - [MPJRun.java]:Waiting for <2> to connect
+ DEBUG runtime  - Socket DESKTOP-5R0PGJ4 connected to share Rank and Ports
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Sending info to Socket DESKTOP-5R0PGJ4
+Info: #Peer Information;192.168.3.161@33367@32355@0@0;192.168.3.118@26942@34856@1@0
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@33367@32355@0@0;192.168.3.118@26942@34856@1@0
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  - Connecting to 127.0.0.1@40055
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: Hulio Starting Rank: 0 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=Hulio/192.168.3.161,port=40055,localport=50331]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: 127.0.0.1 Starting Rank: 1 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=127.0.0.1/127.0.0.1,port=40055,localport=50332]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - [MPJRun.java]:Creating server..
+ DEBUG runtime  - [MPJRun.java]:Waiting for <2> to connect
+ DEBUG runtime  - Socket DESKTOP-5R0PGJ4 connected to share Rank and Ports
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Sending info to Socket DESKTOP-5R0PGJ4
+Info: #Peer Information;192.168.3.161@28403@34028@0@0;192.168.3.118@25869@26028@1@0
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@28403@34028@0@0;192.168.3.118@25869@26028@1@0
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  - Connecting to 127.0.0.1@40055
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: Hulio Starting Rank: 0 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=Hulio/192.168.3.161,port=40055,localport=50339]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: 127.0.0.1 Starting Rank: 1 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=127.0.0.1/127.0.0.1,port=40055,localport=50340]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - [MPJRun.java]:Creating server..
+ DEBUG runtime  - [MPJRun.java]:Waiting for <2> to connect
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Socket DESKTOP-5R0PGJ4 connected to share Rank and Ports
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@38218@26925@0@0;192.168.3.118@35828@32433@1@0
+ DEBUG runtime  - Sending info to Socket DESKTOP-5R0PGJ4
+Info: #Peer Information;192.168.3.161@38218@26925@0@0;192.168.3.118@35828@32433@1@0
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  - Connecting to 127.0.0.1@40055
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: Hulio Starting Rank: 0 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=Hulio/192.168.3.161,port=40055,localport=50352]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: 127.0.0.1 Starting Rank: 1 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=127.0.0.1/127.0.0.1,port=40055,localport=50353]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - [MPJRun.java]:Creating server..
+ DEBUG runtime  - [MPJRun.java]:Waiting for <2> to connect
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Socket DESKTOP-5R0PGJ4 connected to share Rank and Ports
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@32479@36662@0@0;192.168.3.118@32143@31490@1@0
+ DEBUG runtime  - Sending info to Socket DESKTOP-5R0PGJ4
+Info: #Peer Information;192.168.3.161@32479@36662@0@0;192.168.3.118@32143@31490@1@0
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  - Connecting to 127.0.0.1@40055
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: Hulio Starting Rank: 0 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=Hulio/192.168.3.161,port=40055,localport=50365]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: 127.0.0.1 Starting Rank: 1 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=127.0.0.1/127.0.0.1,port=40055,localport=50366]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - [MPJRun.java]:Creating server..
+ DEBUG runtime  - [MPJRun.java]:Waiting for <2> to connect
+ DEBUG runtime  - Socket DESKTOP-5R0PGJ4 connected to share Rank and Ports
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Sending info to Socket DESKTOP-5R0PGJ4
+Info: #Peer Information;192.168.3.161@33287@29414@0@0;192.168.3.118@28737@34607@1@0
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@33287@29414@0@0;192.168.3.118@28737@34607@1@0
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  - Connecting to 127.0.0.1@40055
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: Hulio Starting Rank: 0 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=Hulio/192.168.3.161,port=40055,localport=50389]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: 127.0.0.1 Starting Rank: 1 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=127.0.0.1/127.0.0.1,port=40055,localport=50390]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - [MPJRun.java]:Creating server..
+ DEBUG runtime  - [MPJRun.java]:Waiting for <2> to connect
+ DEBUG runtime  - Socket DESKTOP-5R0PGJ4 connected to share Rank and Ports
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Sending info to Socket DESKTOP-5R0PGJ4
+Info: #Peer Information;192.168.3.161@27564@35677@0@0;192.168.3.118@38988@32970@1@0
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@27564@35677@0@0;192.168.3.118@38988@32970@1@0
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  - Connecting to 127.0.0.1@40055
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: Hulio Starting Rank: 0 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=Hulio/192.168.3.161,port=40055,localport=50403]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: 127.0.0.1 Starting Rank: 1 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=127.0.0.1/127.0.0.1,port=40055,localport=50404]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - [MPJRun.java]:Creating server..
+ DEBUG runtime  - [MPJRun.java]:Waiting for <2> to connect
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Socket DESKTOP-5R0PGJ4 connected to share Rank and Ports
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@25522@26663@0@0;192.168.3.118@25247@34360@1@0
+ DEBUG runtime  - Sending info to Socket DESKTOP-5R0PGJ4
+Info: #Peer Information;192.168.3.161@25522@26663@0@0;192.168.3.118@25247@34360@1@0
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  - Connecting to 127.0.0.1@40055
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: Hulio Starting Rank: 0 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=Hulio/192.168.3.161,port=40055,localport=62431]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: 127.0.0.1 Starting Rank: 1 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=127.0.0.1/127.0.0.1,port=40055,localport=62432]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - [MPJRun.java]:Creating server..
+ DEBUG runtime  - [MPJRun.java]:Waiting for <2> to connect
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Socket DESKTOP-5R0PGJ4 connected to share Rank and Ports
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@30375@38686@0@0;192.168.3.118@38958@36001@1@0
+ DEBUG runtime  - Sending info to Socket DESKTOP-5R0PGJ4
+Info: #Peer Information;192.168.3.161@30375@38686@0@0;192.168.3.118@38958@36001@1@0
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  - Connecting to 127.0.0.1@40055
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: Hulio Starting Rank: 0 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=Hulio/192.168.3.161,port=40055,localport=62442]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: 127.0.0.1 Starting Rank: 1 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=127.0.0.1/127.0.0.1,port=40055,localport=62443]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - [MPJRun.java]:Creating server..
+ DEBUG runtime  - [MPJRun.java]:Waiting for <2> to connect
+ DEBUG runtime  - Socket DESKTOP-5R0PGJ4 connected to share Rank and Ports
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Sending info to Socket DESKTOP-5R0PGJ4
+Info: #Peer Information;192.168.3.161@28710@33707@0@0;192.168.3.118@33818@32771@1@0
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@28710@33707@0@0;192.168.3.118@33818@32771@1@0
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  - Connecting to 127.0.0.1@40055
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: Hulio Starting Rank: 0 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=Hulio/192.168.3.161,port=40055,localport=62449]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: 127.0.0.1 Starting Rank: 1 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=127.0.0.1/127.0.0.1,port=40055,localport=62450]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - [MPJRun.java]:Creating server..
+ DEBUG runtime  - [MPJRun.java]:Waiting for <2> to connect
+ DEBUG runtime  - Socket DESKTOP-5R0PGJ4 connected to share Rank and Ports
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Sending info to Socket DESKTOP-5R0PGJ4
+Info: #Peer Information;192.168.3.161@35466@33820@0@0;192.168.3.118@33506@26866@1@0
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@35466@33820@0@0;192.168.3.118@33506@26866@1@0
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  - Connecting to 127.0.0.1@40055
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: Hulio Starting Rank: 0 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=Hulio/192.168.3.161,port=40055,localport=62456]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: 127.0.0.1 Starting Rank: 1 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=127.0.0.1/127.0.0.1,port=40055,localport=62457]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - [MPJRun.java]:Creating server..
+ DEBUG runtime  - [MPJRun.java]:Waiting for <2> to connect
+ DEBUG runtime  - Socket DESKTOP-5R0PGJ4 connected to share Rank and Ports
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Sending info to Socket DESKTOP-5R0PGJ4
+Info: #Peer Information;192.168.3.161@39209@33862@0@0;192.168.3.118@31884@28921@1@0
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@39209@33862@0@0;192.168.3.118@31884@28921@1@0
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  - Connecting to 127.0.0.1@40055
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: Hulio Starting Rank: 0 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=Hulio/192.168.3.161,port=40055,localport=62464]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: 127.0.0.1 Starting Rank: 1 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=127.0.0.1/127.0.0.1,port=40055,localport=62465]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - [MPJRun.java]:Creating server..
+ DEBUG runtime  - [MPJRun.java]:Waiting for <2> to connect
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Socket DESKTOP-5R0PGJ4 connected to share Rank and Ports
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@30861@28626@0@0;192.168.3.118@33861@36463@1@0
+ DEBUG runtime  - Sending info to Socket DESKTOP-5R0PGJ4
+Info: #Peer Information;192.168.3.161@30861@28626@0@0;192.168.3.118@33861@36463@1@0
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  - Connecting to 127.0.0.1@40055
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: Hulio Starting Rank: 0 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=Hulio/192.168.3.161,port=40055,localport=62471]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: 127.0.0.1 Starting Rank: 1 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=127.0.0.1/127.0.0.1,port=40055,localport=62472]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - [MPJRun.java]:Creating server..
+ DEBUG runtime  - [MPJRun.java]:Waiting for <2> to connect
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Socket DESKTOP-5R0PGJ4 connected to share Rank and Ports
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@26009@38072@0@0;192.168.3.118@28306@33162@1@0
+ DEBUG runtime  - Sending info to Socket DESKTOP-5R0PGJ4
+Info: #Peer Information;192.168.3.161@26009@38072@0@0;192.168.3.118@28306@33162@1@0
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  - Connecting to 127.0.0.1@40055
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: Hulio Starting Rank: 0 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=Hulio/192.168.3.161,port=40055,localport=62483]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: 127.0.0.1 Starting Rank: 1 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=127.0.0.1/127.0.0.1,port=40055,localport=62484]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - [MPJRun.java]:Creating server..
+ DEBUG runtime  - [MPJRun.java]:Waiting for <2> to connect
+ DEBUG runtime  - Socket DESKTOP-5R0PGJ4 connected to share Rank and Ports
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Sending info to Socket DESKTOP-5R0PGJ4
+Info: #Peer Information;192.168.3.161@31622@28602@0@0;192.168.3.118@29230@35563@1@0
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@31622@28602@0@0;192.168.3.118@29230@35563@1@0
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  - Connecting to 127.0.0.1@40055
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: Hulio Starting Rank: 0 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=Hulio/192.168.3.161,port=40055,localport=62495]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: 127.0.0.1 Starting Rank: 1 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=127.0.0.1/127.0.0.1,port=40055,localport=62496]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - [MPJRun.java]:Creating server..
+ DEBUG runtime  - [MPJRun.java]:Waiting for <2> to connect
+ DEBUG runtime  - Socket DESKTOP-5R0PGJ4 connected to share Rank and Ports
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Sending info to Socket DESKTOP-5R0PGJ4
+Info: #Peer Information;192.168.3.161@29410@39292@0@0;192.168.3.118@27224@33701@1@0
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@29410@39292@0@0;192.168.3.118@27224@33701@1@0
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  - Connecting to 127.0.0.1@40055
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: Hulio Starting Rank: 0 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=Hulio/192.168.3.161,port=40055,localport=62504]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: 127.0.0.1 Starting Rank: 1 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=127.0.0.1/127.0.0.1,port=40055,localport=62505]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - [MPJRun.java]:Creating server..
+ DEBUG runtime  - [MPJRun.java]:Waiting for <2> to connect
+ DEBUG runtime  - Socket DESKTOP-5R0PGJ4 connected to share Rank and Ports
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Sending info to Socket DESKTOP-5R0PGJ4
+Info: #Peer Information;192.168.3.161@35828@31083@0@0;192.168.3.118@29217@30754@1@0
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@35828@31083@0@0;192.168.3.118@29217@30754@1@0
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  - Connecting to 127.0.0.1@40055
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: Hulio Starting Rank: 0 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=Hulio/192.168.3.161,port=40055,localport=62518]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: 127.0.0.1 Starting Rank: 1 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=127.0.0.1/127.0.0.1,port=40055,localport=62519]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - [MPJRun.java]:Creating server..
+ DEBUG runtime  - [MPJRun.java]:Waiting for <2> to connect
+ DEBUG runtime  - Socket DESKTOP-5R0PGJ4 connected to share Rank and Ports
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Sending info to Socket DESKTOP-5R0PGJ4
+Info: #Peer Information;192.168.3.161@35177@25285@0@0;192.168.3.118@27919@26984@1@0
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@35177@25285@0@0;192.168.3.118@27919@26984@1@0
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  - Connecting to 127.0.0.1@40055
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: Hulio Starting Rank: 0 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=Hulio/192.168.3.161,port=40055,localport=62531]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: 127.0.0.1 Starting Rank: 1 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=127.0.0.1/127.0.0.1,port=40055,localport=62532]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - [MPJRun.java]:Creating server..
+ DEBUG runtime  - [MPJRun.java]:Waiting for <2> to connect
+ DEBUG runtime  - Socket DESKTOP-5R0PGJ4 connected to share Rank and Ports
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Sending info to Socket DESKTOP-5R0PGJ4
+Info: #Peer Information;192.168.3.161@39981@39937@0@0;192.168.3.118@34078@39968@1@0
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@39981@39937@0@0;192.168.3.118@34078@39968@1@0
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  - Connecting to 127.0.0.1@40055
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: Hulio Starting Rank: 0 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=Hulio/192.168.3.161,port=40055,localport=61374]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: 127.0.0.1 Starting Rank: 1 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=127.0.0.1/127.0.0.1,port=40055,localport=61375]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - [MPJRun.java]:Creating server..
+ DEBUG runtime  - [MPJRun.java]:Waiting for <2> to connect
+ DEBUG runtime  - Socket DESKTOP-5R0PGJ4 connected to share Rank and Ports
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Sending info to Socket DESKTOP-5R0PGJ4
+Info: #Peer Information;192.168.3.161@37223@30422@0@0;192.168.3.118@36037@25208@1@0
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@37223@30422@0@0;192.168.3.118@36037@25208@1@0
+ DEBUG runtime  -  --MPJRun.java invoked--
+ DEBUG runtime  - [MPJRun.java]: processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -dport: <40055>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <C:\mpj>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - className : <main.java.distributed.Master>
+ DEBUG runtime  - applicationClassPathEntry: <C:\VRP-89221061>
+ DEBUG runtime  - -yarn: <false>
+ DEBUG runtime  - $HADOOP_HOME: <null>
+ DEBUG runtime  - -amMem: <null>
+ DEBUG runtime  - -amCores: <null>
+ DEBUG runtime  - -containerMem: <null>
+ DEBUG runtime  - -yarnQueue: <null>
+ DEBUG runtime  - -appName: <null>
+ DEBUG runtime  - -amPriority: <null>
+ DEBUG runtime  - -mpjContainerPriority: <null>
+ DEBUG runtime  - -hdfsFolder: <null>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - Processes Requested 2 are less than than machines 2
+ DEBUG runtime  - Adding 1 processes to the first 2 items
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1}
+ DEBUG runtime  - procPerMachineTable==>{192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - conf file contents #temp line;#Number of Processes;2;#Protocol Switch Limit;131072;#Entry, HOST_NAME/IP@READPORT@WRITEPORT@RANK@DEBUGPORT;192.168.3.161@0@0@0@0;127.0.0.1@0@0@1@0
+ DEBUG runtime  - Connecting to 192.168.3.161@40055
+ DEBUG runtime  - Connecting to 127.0.0.1@40055
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: Hulio Starting Rank: 0 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=Hulio/192.168.3.161,port=40055,localport=61401]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ INFO  runtime  - Machine Name: 127.0.0.1 Starting Rank: 1 Process Count: 1
+ DEBUG runtime  - Sending to Socket[addr=127.0.0.1/127.0.0.1,port=40055,localport=61402]
+ DEBUG runtime  - procsPerMachineTable {192.168.3.161=1, 127.0.0.1=1}
+ DEBUG runtime  - [MPJRun.java]:Creating server..
+ DEBUG runtime  - [MPJRun.java]:Waiting for <2> to connect
+ DEBUG runtime  - Socket DESKTOP-5R0PGJ4 connected to share Rank and Ports
+ DEBUG runtime  - Socket Hulio connected to share Rank and Ports
+ DEBUG runtime  - Sending info to Socket DESKTOP-5R0PGJ4
+Info: #Peer Information;192.168.3.161@28454@31916@0@0;192.168.3.118@37635@39246@1@0
+ DEBUG runtime  - Sending info to Socket Hulio
+Info: #Peer Information;192.168.3.161@28454@31916@0@0;192.168.3.118@37635@39246@1@0

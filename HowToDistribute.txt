@@ -1,0 +1,56 @@
+We need to Prepare Master and Worker Machines.
+
+1. First:
+    -> Make sure MPJ Express and Java is installed.
+    So we need to put the Paths 'MPJ_HOME' and 'JAVA_HOME'
+1. Set the MPJ_HOME Environment Variable
+Click on "New..." under the "User variables for devne" section.
+
+Add a new system variable:
+
+Variable name: MPJ_HOME
+Variable value: The path to the directory where MPJ Express is installed.
+Example: C:\path\to\mpj-express (replace with the actual path where you extracted MPJ Express).
+Click "OK" to save the new variable.
+
+2. Edit the Path Environment Variable
+Find and select the Path variable under the "User variables for devne" section, and then click on "Edit..."
+Add a new entry:
+New entry: %MPJ_HOME%\bin
+This allows you to run MPJ Express commands from any directory in your command prompt.
+Click "OK" to save the changes.
+3. Verify JAVA_HOME Environment Variable
+You already have JAVA_HOME set, so just ensure that it points to the correct JDK installation path.
+
+Example: C:\Users\devne\Downloads\jdk-22_windows-x64_bin\jdk-22.0.2 (ensure this path is correct and that it points to where your JDK is installed).
+Edit the Path Environment Variable for JAVA_HOME:
+
+You should have %JAVA_HOME%\bin already added to your Path variable, which allows you to run Java commands from any directory.
+
+Then in the Master Machine we need to create a .jar file of this
+1. We open the Cmd (Terminal) and look for the project Dir.
+2. Then once you are there -> CREATE A JAR FILE WITH BELOW COMMAND
+jar cvf VRP-89221061.jar -C out/production/VRP-89221061 .
+
+C:\Users\devne\OneDrive\Desktop\VRP-89221061>javac -cp "C:\Users\devne\Downloads\mpj\lib\mpj.jar;src" -d out/production/VRP-89221061 src/main/java/distributed/Master.java src/main/java/distributed/Worker.java src/main/java/main_components/*.java
+
+C:\Users\devne\OneDrive\Desktop\VRP-89221061>jar cvf VRP-89221061.jar -C out/production/VRP-89221061 .
+
+Then also in the same directory add a machines.txt file in order to Run the Workers (find their ips)
+192.168.1.blah
+
+IMPORTANT IS FO THEM TO BE IN A SIMILAR TO SAME DIRECTORY
+
+FOR WORKER MACHINES:
+=> GO TO THE DIRECTORY WHERE %MPJ_HOME%\bin
+AND RUN THE mpjdaemon.bat -boot == for loading, -status == to check if works, -halt == when finished connecting
+
+
+FOR MACHINE:
+Case: If MPJ_HOME still not working create the environment:
+$env:MPJ_HOME = "C:\Users\devne\Downloads\mpj"
+Finally you can run the last command:
+
+.\mpjrun.bat -np 2 -dev niodev -machinesfile machines.txt -cp "C:\mpj\lib\mpj.jar;C:\VRP-89221061\out\production\VRP-89221061" main.java.distributed.Master
+
+Read this file in order to configure on master and worker machines! ;)

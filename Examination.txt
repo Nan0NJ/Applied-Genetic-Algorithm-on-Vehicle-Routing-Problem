@@ -1,0 +1,115 @@
+Examination of Time Between Sequential, Parallel and Distributive Workloads on Given VRP Project.
+( * Testing trial done with over 10 laps of the same and resolving on an average * )
+( * Time Duration in milliseconds * )
+COMPARISON WAS WITH SEQUENTIAL
+1`
+Dataset: vrp_large_dataset_1000.csv - Customers: 1000 DEFAULT
+Parameters:
+    int populationSize = 100;
+    int generations = 100;
+    double crossoverRate = 0.7;
+    double mutationRate = 0.05;
+    int numVehicles = 50; // Preset same as Data is fixed
+    int vehicleCapacity = 100; // Preset same as Data is fixed
+Sequential: 668ms, 642ms, 741ms, 640ms, 519ms, 685ms, 632ms, 485ms, 544ms, 662ms == 621.8ms ~ 0.01min
+Parallel: 537ms, 530ms, 614ms, 505ms, 562ms, 549ms, 579ms, 513ms, 553ms, 570ms == 551.2ms ~ 0.009min (11.35% faster)
+Distributed: 1442ms, 2133ms, 1802ms, 1687ms, 1677ms, 1278ms, 1579ms, 1345ms, 1492ms, 1273ms == 1570.8ms ~ 0.02min (104.99% slower)
+
+ParameterCHANGE: int populationSize = 1000;
+Sequential: 2458ms, 3132ms, 3606ms, 2772ms, 2643ms, 2695ms, 3628ms, 3268ms, 3364ms, 2803ms == 3036.9ms ~ 0.05min 
+Parallel: 3155ms, 3059ms, 2705ms, 3163ms, 3025ms, 2724ms, 3000ms, 2661ms, 2950ms, 2526ms == 2896.8ms ~ 0.048min (5.61% faster) 
+Distributed: 10777ms, 9749ms, 9960ms, 10426ms, 10661ms, 10101ms, 10105ms, 10659ms, 9391ms, 9752ms == 10158.1ms ~ 0.16min (221.21% slower)
+
+ParameterCHANGE: int populationSize = 5000;
+Sequential: 14200ms, 14868 ms, 13997ms, 14290ms, 10429ms, 10296ms, 13985ms, 10577ms, 14531ms, 10292ms == 12746.5ms ~ 0.21min
+Parallel: 12362ms, 11439ms, 11216ms, 11337ms, 10170ms, 11648ms, 10684ms, 9712ms, 9566ms, 9486ms == 10762ms ~ 0.179min (15% faster)
+Distributed: 19543ms,  14859ms,  10210ms, 10593ms, 11172ms, 10612ms, 11137ms, 11404ms, 10208ms, 10900ms == 12063.8ms ~ 0.201min (5.35% faster)
+
+ParameterCHANGE: int populationSize = 10000;
+Sequential: 34213ms, 26184ms, 33210ms, 33371ms, 34810ms, 36576ms, 34833ms, 27871ms, 35116ms, 37245ms == 33342.9ms ~ 0.56min
+Parallel: 18914ms, 20713ms, 21749ms, 21873ms, 25001ms, 24461ms, 25185ms, 22912ms, 23203ms, 24182ms == 22819.3ms ~ 0.38min (31.56% faster)
+Distributed: 18280ms, 18478ms, 17929ms, 18224ms, 17873ms, 17907ms, 17948ms, 18328ms, 18087ms, 17911ms == 18096.5ms ~ 0.301min (45.57% faster)
+
+2`
+Dataset: vrp_very_very_large_dataset_15000.csv - Customers: 15000
+Parameters:
+    int populationSize = 100;
+    int generations = 100;
+    double crossoverRate = 0.7;
+    double mutationRate = 0.05;
+    int numVehicles = 10;
+    int vehicleCapacity = 100;
+Sequential: 3408ms, 4350ms, 3823ms, 4242ms, 4768ms, 7782ms, 4599ms, 4146ms, 4213ms, 3824ms == 4515.5ms ~ 0.07min
+Parallel: 3529ms, 3639ms, 3850ms, 3659ms, 3584ms, 3952ms, 3992ms, 5049ms, 4887ms, 4635ms == 4077.6ms ~ 0.067min (9.69% faster)
+Distributed: 7178ms, 6998ms, 6989ms, 7102ms, 7030ms, 6854ms, 7206ms, 6728ms, 7076ms, 6918ms == 7007.9ms ~ 0.116min (55% slower)
+
+ParameterCHANGE: int populationSize = 1000;
+Sequential: 35105ms, 56559ms, 49410ms, 36049ms, 34316ms, 33950ms, 34795ms, 34749ms, 38639ms, 36991ms == 39056.3ms ~ 0.65min
+Parallel: 35500ms, 36151ms, 35564ms, 37167ms, 38118ms, 37054ms, 35151ms, 34837ms, 36523ms, 34902ms == 36096.7ms ~ 0.6min (7.57% faster)
+Distributed: 29681ms, 31828ms, 30047ms, 31787ms, 30494ms, 30470ms, 31662ms, 27818ms, 30373ms, 29859 == 30401.9ms ~ 0.51min (22.16% faster)
+
+ParameterCHANGE: int populationSize = 5000;
+Sequential: 170454ms, 174437ms, 171437ms, 177085ms, 177439ms == 174170.4ms ~ 2.9min
+Parallel: 125164ms,  126293ms, 133487ms, 124655ms,  127454ms == 127410.6ms ~ 2.1min (26.85% faster)
+Distributed: 71209ms, 68878ms, 69003ms, 68138ms, 66895ms == 68824.6ms ~ 1.15min (60.48% faster)
+
+ParameterCHANGE: int populationSize = 10000;
+Sequential: 364863ms, 378793ms, 381735ms, 395917ms, 382183ms == 380698.2ms ~ 6.3min
+Parallel: 312382ms, 302274ms, 314680ms, 310330ms, 300958ms == 308124.8ms ~ 5.135min (19.06% faster)
+Distributed: 120440ms, 127381ms, 121448ms, 124132ms, 121626ms == 123005.4ms ~ 2.05min (67.68% faster)
+
+3`
+Dataset: vrp_huge_dataset_50000.csv - Customers: 50000
+Parameters:
+    int populationSize = 100;
+    int generations = 100;
+    double crossoverRate = 0.7;
+    double mutationRate = 0.05;
+    int numVehicles = 10;
+    int vehicleCapacity = 100;
+Sequential: 9622ms, 9499ms, 9505ms, 9852ms, 9534ms, 9477ms, 9460ms, 9677ms, 9868ms, 9448ms == 9594.2ms ~ 0.15min
+Parallel: 9596ms, 9686ms, 9887ms, 9506ms, 9537ms, 10308ms, 9487ms, 9568ms, 10017ms, 9960ms == 9755.2ms ~ 0.16min (1.67% slower)
+Distributed: 4086ms, 4617ms, 4466ms, 4140ms, 4103ms, 4401ms, 4712ms, 4574ms, 4046ms, 4021ms == 4316.6ms ~ 0.07min (55% faster)
+
+ParameterCHANGE: int populationSize = 1000;
+Sequential: 123685ms, 121399ms, 121052ms, 121499ms, 127079ms, 100597ms, 98545me, 100188ms, 99745ms, 98940ms == 111272.9ms ~ 1.85min
+Parallel: 98345ms, 100621ms, 98653ms, 98252ms, 103499ms, 101902ms, 99605ms, 98540ms, 100020ms, 98767ms == 99820.4ms ~ 1.66min (10.29% faster)
+Distributed: 31103ms, 30525ms, 27847ms, 28159ms, 31735ms, 25722ms, 31532ms, 27835ms, 28739ms, 26610ms == 28980.7ms ~ 0.48min (26.04% faster)
+
+ParameterCHANGE: int populationSize = 5000;
+Sequential: 494908ms, 499073ms, 498464ms, 493925ms, 499242ms == 497122.4ms ~ 8.28min
+Parallel: 403859ms, 403315ms, 403974ms, 405058ms, 402766ms == 403794.4ms ~ 6.73min (18.77% faster)
+Distributed: 148129ms, 135323ms, 143210m, 137653ms, 134544ms == 139771.8ms ~ 2.3min (71.188% faster)
+
+ParameterCHANGE: int populationSize = 10000;
+Sequential: 1294254ms, 1249468ms, 1265837ms, 1314752ms, 1269769ms == 1278816ms ~ 21.31min
+Parallel: 843796ms, 836049ms, 839467ms, 840026ms, 837659ms == 839399.4ms ~ 13.98min (34.36% faster)
+Distributed: 301559ms, 277346ms, 301551ms, 280130ms, 301058ms == 292328.8ms ~ 4.87min (77% faster)
+
+4`
+Dataset: vrp_very_huge_dataset_100000.csv - Customers: 100000
+Parameters:
+    int populationSize = 100;
+    int generations = 100;
+    double crossoverRate = 0.7;
+    double mutationRate = 0.05;
+    int numVehicles = 10;
+    int vehicleCapacity = 100;
+Sequential: 25711ms, 25629ms, 25398ms, 25633ms, 25789ms, 25283ms, 26002ms, 25705ms, 25453ms, 25115ms == 25571.8ms ~ 0.42min 
+Parallel: 18602ms, 19230ms, 18393ms, 17495ms, 19353ms, 18495ms, 18045ms, 18426ms, 17839ms, 18404ms == 18428.2ms ~ 0.307min (27.9% faster)
+Distributed: 6258ms, 6773ms, 6258ms, 6330ms, 6805ms, 6035ms, 6447ms, 7032ms, 6569ms, 6868ms == 6537.5ms ~ 0.109min (74.43% faster)
+
+ParameterCHANGE: int populationSize = 1000;
+Sequential: 254672ms, 251923ms, 254495ms, 249592ms, 256249ms, 258042ms, 257842ms, 254856ms, 255304ms, 257493ms == 255046.8ms ~ 4.25min
+Parallel: 168383ms, 166123ms, 165799ms, 170358ms, 163965ms, 169324ms, 169435ms, 164865ms, 170352ms, 169424ms == 167802.8ms ~ 2.79min (34.2% faster)
+Distributed: 56836ms, 52433ms, 57989ms, 51478ms, 60906ms, 50345ms, 54072ms, 57353ms, 54902ms, 56938ms == 55325.2ms  ~ 0.922min (78.31% faster)
+
+ParameterCHANGE: int populationSize = 5000;
+Sequential: 991766ms, 985534ms, 975683ms, 984365ms, 994928ms == 986455.2ms ~ 16.44min
+Parallel: 443697ms, 430699ms, 425295ms, 445390ms, 438648ms == 436745.8ms ~ 7.27min (55.72% faster)
+Distributed: 277890ms, 255017ms, 278529ms, 268754ms, 272086ms == 270455.2ms ~ 4.507min (72.58% faster)
+
+ParameterCHANGE: int populationSize = 10000;
+Sequential: 1985194ms, 2006036ms, 2003495ms, 1987532ms, 1985391ms == 1993529.6ms ~ 33.225min
+Parallel: 912214ms, 889649ms, 836588ms, 943823ms, 863731ms == 889201ms ~ 14.82min (55.93% faster)
+Distributed: 557067ms, 560607ms, 589874ms, 548283ms, 558028ms == 562771.8ms ~ 9.37min (71.77% faster)
