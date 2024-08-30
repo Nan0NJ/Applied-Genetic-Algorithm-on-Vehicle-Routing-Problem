@@ -25,8 +25,10 @@ The Vehicle Routing Problem (VRP) is a complex combinatorial optimization proble
 The goal of this project is to minimize the total distance traveled by a fleet of vehicles tasked with delivering goods to a set of customers, subject to constraints such as vehicle capacity and customer demand. Due to the NP-hard nature of the VRP, exact solutions are computationally infeasible for large instances, making heuristic methods like GAs particularly suitable.
 
 ## Project Structure
-
-├── src/ │ ├── main/ │ │ ├── java/ │ │ │ ├── distributed/ │ │ │ │ ├── Master.java │ │ │ │ ├── Worker.java │ │ │ ├── main_components/ │ │ ├── resources/ │ └── test/ ├── out/ │ ├── production/ │ │ ├── VRP-89221061/ │ ├── test/ ├── DataGenerator.py ├── README.md └── HowToDistribute.txt
+Files to go by:
+- report_89221061.pdf for given information on the project
+- HowToDistribute.txt for learning how to run distributive
+- Distributing.mp4 for getting intel on how to run distributive (through video)
 
 
 ## Setup and Installation
